@@ -62,7 +62,7 @@ const Login: NextPage = () => {
           onSubmit={onSubmit}
           onError={onError}
           isModal={false}
-          defaultValues={{ email: "elvismarrugo@gmail.com", code: "123456" }}
+          defaultValues={{ email: "elvismarrugo@gmail.com", code: "1234567" }}
         >
           <MyInput fieldName="email" label="Email" />
           <MyInput fieldName="code" label="Código" />
